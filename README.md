@@ -1,19 +1,23 @@
 # 100-python-solutions
-Solution to 100 python exercises
+Solution to 100 python exercises from: https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Python%20challenging%20programming%20exercises%20for%20Python%203.md
+
 
 ## ------------------ Level 1 ------------------
 
 ### Exercise 1
+
 Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5, between 2000 and 3200 (both included).
 The numbers obtained should be printed in a comma-separated sequence on a single line.
 
 ### Exercise 2
+
 Write a program which can compute the factorial of a given numbers. The results should be printed in a comma-separated sequence on a single line. Suppose the following input is supplied to the program:
 8
 Then, the output should be:
 40320
 
 ### Exercise 3
+
 With a given integral number n, write a program to generate a dictionary that contains (i, i*i) such that is an integral number between 1 and n (both included) and then the program should print the dictionary.
 Suppose the following input is supplied to the program:
 8
@@ -25,6 +29,7 @@ In case of input data being supplied to the question, it should be assumed to be
 Consider use dict()
 
 ### Exercise 4
+
 Write a program which accepts a sequence of comma-separated numbers from console and generate a list and a tuple which contains every number.
 Suppose the following input is supplied to the program:
 34,67,55,33,12,98
@@ -37,6 +42,7 @@ In case of input data being supplied to the question, it should be assumed to be
 tuple() method can convert list to tuple.
 
 ### Exercise 5
+
 Define a class which has at least two methods:
 getString: to get a string from console input
 printString: to print the string in upper case.
@@ -48,6 +54,7 @@ Use __init__ method to construct some parameters
 ## ------------------ Level 2 ------------------
 
 ### Exercise 6
+
 Write a program that calculates and prints the value according to the given formula:
 Q = Square root of [(2 * C * D)/H]
 Following are the fixed values of C and H:
@@ -64,6 +71,7 @@ If the output received is in decimal form, it should be rounded off to its neare
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
 ### Exercise 7
+
 Write a program which takes 2 digits, X,Y as input and generates a 2-dimensional array. The element value in the i-th row and j-th column of the array should be i*j.
 Note: i=0,1.., X-1; j=0,1,¡­Y-1.
 Example
@@ -76,6 +84,7 @@ Then, the output of the program should be:
 Note: In case of input data being supplied to the question, it should be assumed to be a console input in a comma-separated form.
 
 ### Exercise 8
+
 Write a program that accepts a comma separated sequence of words as input and prints the words in a comma-separated sequence after sorting them alphabetically.
 Suppose the following input is supplied to the program:
 without,hello,bag,world
@@ -83,6 +92,7 @@ Then, the output should be:
 bag,hello,without,world
 
 ### Exercise 9
+
 Write a program that accepts sequence of lines as input and prints the lines after making all characters in the sentence capitalized.
 Suppose the following input is supplied to the program:
 Hello world
@@ -92,6 +102,7 @@ HELLO WORLD
 PRACTICE MAKES PERFECT
 
 ### Exercise 10
+
 Write a program that accepts a sequence of whitespace separated words as input and prints the words after removing all duplicate words and sorting them alphanumerically.
 Suppose the following input is supplied to the program:
 hello world and practice makes perfect and hello world again
@@ -103,6 +114,7 @@ In case of input data being supplied to the question, it should be assumed to be
 We use set container to remove duplicated data automatically and then use sorted() to sort the data.
 
 ### Exercise 11
+
 Write a program which accepts a sequence of comma separated 4 digit binary numbers as its input and then check whether they are divisible by 5 or not. The numbers that are divisible by 5 are to be printed in a comma separated sequence.
 Example:
 0100,0011,1010,1001
@@ -111,10 +123,12 @@ Then the output should be:
 Notes: Assume the data is input by console.
 
 ### Exercise 12
+
 Write a program, which will find all such numbers between 1000 and 3000 (both included) such that each digit of the number is an even number.
 The numbers obtained should be printed in a comma-separated sequence on a single line.
 
 ### Exercise 13
+
 Write a program that accepts a sentence and calculate the number of letters and digits.
 Suppose the following input is supplied to the program:
 hello world! 123
@@ -123,6 +137,7 @@ LETTERS 10
 DIGITS 3
 
 ### Exercise 14
+
 Write a program that accepts a sentence and calculate the number of upper case letters and lower case letters.
 Suppose the following input is supplied to the program:
 Hello world!
@@ -131,6 +146,7 @@ UPPER CASE 1
 LOWER CASE 9
 
 ### Exercise 15
+
 Write a program that computes the value of a+aa+aaa+aaaa with a given digit as the value of a.
 Suppose the following input is supplied to the program:
 9
@@ -138,6 +154,7 @@ Then, the output should be:
 11106
 
 ### Exercise 16
+
 Use a list comprehension to square each odd number in a list. The list is input by a sequence of comma-separated numbers.
 Suppose the following input is supplied to the program:
 1,2,3,4,5,6,7,8,9
@@ -145,6 +162,7 @@ Then, the output should be:
 1,3,5,7,9
 
 ### Exercise 17
+
 Write a program that computes the net amount of a bank account based a transaction log from console input. The transaction log format is shown as following:
 D 100
 W 200
@@ -161,6 +179,7 @@ Then, the output should be:
 ## ------------------ Level 3 ------------------
 
 ### Exercise 18
+
 A website requires the users to input username and password to register. Write a program to check the validity of password input by users.
 Following are the criteria for checking the password:
 1. At least 1 letter between [a-z]
@@ -205,3 +224,47 @@ Define a class with a generator which can iterate the numbers, which are divisib
 
 **Hints**:
 Consider use yield
+
+### Exercise 21
+
+A robot moves in a plane starting from the original point (0,0). The robot can move toward UP, DOWN, LEFT and RIGHT with a given steps. The trace of robot movement is shown as the following: UP 5 DOWN 3 LEFT 3 RIGHT 2 ¡­ The numbers after the direction are steps. Please write a program to compute the distance from current position after a sequence of movement and original point. If the distance is a float, then just print the nearest integer. Example: If the following tuples are given as input to the program: UP 5 DOWN 3 LEFT 3 RIGHT 2 Then, the output of the program should be: 2
+
+### Exercise 22
+
+Write a program to compute the frequency of the words from the input. The output should output after sorting the key alphanumerically. 
+Suppose the following input is supplied to the program:
+New to Python or choosing between Python 2 and Python 3? Read Python 2 or Python 3.
+Then, the output should be:
+2:2
+3.:1
+3?:1
+New:1
+Python:5
+Read:1
+and:1
+between:1
+choosing:1
+or:2
+to:1
+
+## ------------------ Level 1 ------------------
+
+### Exercise 23
+
+Write a method which can calculate square value of number
+
+**Hints**: Using the ** operator
+
+### Exercise 24
+
+Python has many built-in functions, and if you do not know how to use it, you can read document online or find some books. But Python has a built-in document function for every built-in functions.
+
+Please write a program to print some Python built-in functions documents, such as abs(), int(), raw_input()
+
+And add document for your own function Hints: The built-in document method is doc
+
+### Exercise 25
+
+Define a class, which have a class parameter and have a same instance parameter.
+
+**Hints**: Define a instance parameter, need add it in init method You can init a object with construct parameter or set the value later
