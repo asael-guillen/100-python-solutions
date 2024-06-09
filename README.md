@@ -24,7 +24,6 @@ Suppose the following input is supplied to the program:
 Then, the output should be:
 {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}
 
-**Hints**:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 Consider use dict()
 
@@ -37,7 +36,6 @@ Then, the output should be:
 ['34', '67', '55', '33', '12', '98']
 ('34', '67', '55', '33', '12', '98')
 
-**Hints**:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 tuple() method can convert list to tuple.
 
@@ -48,7 +46,6 @@ getString: to get a string from console input
 printString: to print the string in upper case.
 Also please include simple test function to test the class methods.
 
-**Hints**:
 Use __init__ method to construct some parameters
 
 ## ------------------ Level 2 ------------------
@@ -65,8 +62,6 @@ Let us assume the following comma separated input sequence is given to the progr
 100,150,180
 The output of the program should be:
 18,22,24
-
-**Hints**:
 If the output received is in decimal form, it should be rounded off to its nearest value (for example, if the output received is 26.0, it should be printed as 26)
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
@@ -80,7 +75,6 @@ Suppose the following inputs are given to the program:
 Then, the output of the program should be:
 [[0, 0, 0, 0, 0], [0, 1, 2, 3, 4], [0, 2, 4, 6, 8]] 
 
-**Hints**:
 Note: In case of input data being supplied to the question, it should be assumed to be a console input in a comma-separated form.
 
 ### Exercise 8
@@ -109,7 +103,6 @@ hello world and practice makes perfect and hello world again
 Then, the output should be:
 again and hello makes perfect practice world
 
-**Hints**:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 We use set container to remove duplicated data automatically and then use sorted() to sort the data.
 
@@ -214,7 +207,6 @@ Json,21,85
 Then, the output of the program should be:
 [('John', '20', '90'), ('Jony', '17', '91'), ('Jony', '17', '93'), ('Json', '21', '85'), ('Tom', '19', '80')]
 
-**Hints**:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 We use itemgetter to enable multiple sort keys.
 
@@ -222,7 +214,6 @@ We use itemgetter to enable multiple sort keys.
 
 Define a class with a generator which can iterate the numbers, which are divisible by 7, between a given range 0 and n.
 
-**Hints**:
 Consider use yield
 
 ### Exercise 21
@@ -253,7 +244,7 @@ to:1
 
 Write a method which can calculate square value of number
 
-**Hints**: Using the ** operator
+Using the ** operator
 
 ### Exercise 24
 
@@ -262,31 +253,31 @@ Python has many built-in functions, and if you do not know how to use it, you ca
 Please write a program to print some Python built-in functions documents, such as abs(), int(), raw_input()
 
 And add document for your own function 
-**Hints**: The built-in document method is doc
+The built-in document method is doc
 
 ### Exercise 25
 
 Define a class, which have a class parameter and have a same instance parameter.
 
-**Hints**: Define a instance parameter, need add it in init method You can init a object with construct parameter or set the value later
+Define a instance parameter, need add it in init method You can init a object with construct parameter or set the value later
 
 ### Exercise 26
 
 Define a function which can compute the sum of two numbers.
 
-**Hints**: Define a function with two numbers as arguments. You can compute the sum in the function and return the value.
+Define a function with two numbers as arguments. You can compute the sum in the function and return the value.
 
 ### Exercise 27
 
 Define a function that can convert a integer into a string and print it in console.
 
-**Hints**: Use str() to convert a number to string.
+Use str() to convert a number to string.
 
 ### Exercise 28
 
 Define a function that can convert a integer into a string and print it in console.
 
-**Hints**: Use str() to convert a number to string.
+Use str() to convert a number to string.
 
 ### Exercise 29
 
@@ -308,8 +299,6 @@ Define a function that can accept an integer number as input and print the "It i
 
 Define a function which can print a dictionary where the keys are numbers between 1 and 3 (both included) and the values are square of keys.
 
-**Hints**:
-
 Use dict[key]=value pattern to put entry into a dictionary.
 Use ** operator to get power of a number.
 
@@ -317,7 +306,6 @@ Use ** operator to get power of a number.
 
 Define a function which can print a dictionary where the keys are numbers between 1 and 20 (both included) and the values are square of keys.
 
-**Hints**:
 
 Use dict[key]=value pattern to put entry into a dictionary. Use ** operator to get power of a number. Use range() for loops.
 
@@ -325,15 +313,11 @@ Use dict[key]=value pattern to put entry into a dictionary. Use ** operator to g
 
 Define a function which can generate a dictionary where the keys are numbers between 1 and 20 (both included) and the values are square of keys. The function should just print the values only.
 
-**Hints**:
-
 Use dict[key]=value pattern to put entry into a dictionary. Use ** operator to get power of a number. Use range() for loops. Use keys() to iterate keys in the dictionary. Also we can use item() to get key/value pairs.
 
 ### Exercise 36
 
 Define a function which can generate a dictionary where the keys are numbers between 1 and 20 (both included) and the values are square of keys. The function should just print the keys only.
-
-**Hints**:
 
 Use dict[key]=value pattern to put entry into a dictionary. Use ** operator to get power of a number. Use range() for loops. Use keys() to iterate keys in the dictionary. Also we can use item() to get key/value pairs.
 
@@ -341,15 +325,12 @@ Use dict[key]=value pattern to put entry into a dictionary. Use ** operator to g
 
 Define a function which can generate and print a list where the values are square of numbers between 1 and 20 (both included).
 
-Hints:
-
 Use ** operator to get power of a number. Use range() for loops. Use list.append() to add values into a list.
 
 ### Exercise 38
 
 Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print the first 5 elements in the list.
 
-**Hints**:
 
 Use ** operator to get power of a number. Use range() for loops. Use list.append() to add values into a list. Use [n1:n2] to slice a list
 
@@ -357,7 +338,6 @@ Use ** operator to get power of a number. Use range() for loops. Use list.append
 
 Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print the last 5 elements in the list.
 
-**Hints**:
 
 Use ** operator to get power of a number. Use range() for loops. Use list.append() to add values into a list. Use [n1:n2] to slice a list
 
@@ -365,7 +345,6 @@ Use ** operator to get power of a number. Use range() for loops. Use list.append
 
 Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print all values except the first 5 elements in the list.
 
-**Hints**:
 
 Use ** operator to get power of a number. Use range() for loops. Use list.append() to add values into a list. Use [n1:n2] to slice a list
 
@@ -373,7 +352,6 @@ Use ** operator to get power of a number. Use range() for loops. Use list.append
 
 Define a function which can generate and print a tuple where the value are square of numbers between 1 and 20 (both included).
 
-**Hints**:
 
 Use ** operator to get power of a number. Use range() for loops. Use list.append() to add values into a list. Use tuple() to get a tuple from a list.
 
@@ -381,7 +359,6 @@ Use ** operator to get power of a number. Use range() for loops. Use list.append
 
 With a given tuple (1,2,3,4,5,6,7,8,9,10), write a program to print the first half values in one line and the last half values in one line. 
 
-**Hints**:
 
 Use [n1:n2] notation to get a slice from a tuple.
 
@@ -389,7 +366,6 @@ Use [n1:n2] notation to get a slice from a tuple.
 
 Write a program to generate and print another tuple whose values are even numbers in the given tuple (1,2,3,4,5,6,7,8,9,10). 
 
-**Hints**:
 
 Use "for" to iterate the tuple
 Use tuple() to generate a tuple from a list.
@@ -398,7 +374,6 @@ Use tuple() to generate a tuple from a list.
 
 Write a program which accepts a string as input to print "Yes" if the string is "yes" or "YES" or "Yes", otherwise print "No". 
 
-**Hints**:
 
 Use if statement to judge condition.
 
@@ -406,46 +381,63 @@ Use if statement to judge condition.
 
 Write a program which can filter even numbers in a list by using filter function. The list is: [1,2,3,4,5,6,7,8,9,10].
 
-**Hints**:
 
 Use filter() to filter some elements in a list.
 Use lambda to define anonymous functions.
 
 ### Exercise 46
 
+Write a program which can map() to make a list whose elements are square of elements in [1,2,3,4,5,6,7,8,9,10].
 
+Use map() to generate a list. Use lambda to define anonymous functions.
 
 ### Exercise 47
 
+Write a program which can map() and filter() to make a list whose elements are square of even number in [1,2,3,4,5,6,7,8,9,10].
 
+Use map() to generate a list. Use filter() to filter elements of a list. Use lambda to define anonymous functions.
 
 ### Exercise 48
 
+Write a program which can filter() to make a list whose elements are even number between 1 and 20 (both included).
 
+Use filter() to filter elements of a list. Use lambda to define anonymous functions.
 
 ### Exercise 49
 
+Write a program which can map() to make a list whose elements are square of numbers between 1 and 20 (both included).
 
+Use map() to generate a list. Use lambda to define anonymous functions.
 
 ### Exercise 50
 
+Define a class named American which has a static method called printNationality.
 
+Hints: Use @staticmethod decorator to define class static method.
 
 ### Exercise 51
 
+Define a class named American and its subclass NewYorker.
 
+Use class Subclass(ParentClass) to define a subclass.
 
 ### Exercise 52
 
+Define a class named Circle which can be constructed by a radius. The Circle class has a method which can compute the area.
 
+Use def methodName(self) to define a method.
 
 ### Exercise 53
 
+Define a class named Rectangle which can be constructed by a length and width. The Rectangle class has a method which can compute the area.
 
+Use def methodName(self) to define a method.
 
 ### Exercise 54
 
+Define a class named Shape and its subclass Square. The Square class has an init function which takes a length as argument. Both classes have a area function which can print the area of the shape where Shape's area is 0 by default.
 
+To override a method in super class, we can define a method with the same name in the super class.
 
 ### Exercise 55
 
